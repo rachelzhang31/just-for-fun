@@ -1,3 +1,5 @@
+// This is the first program I wrote. It calculates the solutions to a quadratic equation formatted AX^2+BX+C. 
+
 import java.util.*;
 import java.io.*;
 
@@ -12,7 +14,7 @@ public class QuadraticEquation
       while (entering == true)// is user still entering data?
       {
       //input
-         System.out.println ("This program will calculate the solutions to a quadratic equation formatted AX2+BX+C. Please enter the corresponding values for the equation which you are trying to solve.");
+         System.out.println ("This program will calculate the solutions to a quadratic equation formatted AX^2+BX+C. Please enter the corresponding values for the equation which you are trying to solve.");
          System.out.println("A?");
          a = input.nextInt();
          System.out.println ("B?");
