@@ -1,3 +1,9 @@
+/**
+Reads SampleBaseInput.txt to convert recursively between base 10 and destination base. 
+The lines in the text file are in groups of 4. The first line is the "destination" base (2<=base<=10). 
+The next three lines are base 10 numbers that need to be converted to the destination base. 
+Returns a string. **/
+
 import java.util.*;
 import java.io.*;
 public class Base{
